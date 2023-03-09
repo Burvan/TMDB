@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tm_db/theme/app_button_style.dart';
 
-import '../../main_screen/main_screen_widget.dart';
+
 
 class AuthWidget extends StatefulWidget {
   const AuthWidget({Key? key}) : super(key: key);

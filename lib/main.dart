@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tm_db/main_screen/main_screen_widget.dart';
 import 'package:tm_db/theme/app_colors.dart';
 import 'package:tm_db/widgets/auth/auth_widget.dart';
+import 'package:tm_db/widgets/main_screen/main_screen_widget.dart';
 
 void main() {
   runApp(const MyApp());
