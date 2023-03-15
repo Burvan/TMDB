@@ -104,6 +104,7 @@ class _StuffWidget extends StatelessWidget {
             )
           ],
         ),
+        SizedBox(height: 25,)
       ],
     );
   }

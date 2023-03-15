@@ -110,6 +110,9 @@ class _MovieListWidgetState extends State<MovieListWidget> {
     return Stack(
       children: [
         ListView.builder(
+          physics: ScrollPhysics(
+            parent: BouncingScrollPhysics()
+          ),
             keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
             padding: EdgeInsets.only(top: 70),
             itemCount: _filteredMovies.length,
